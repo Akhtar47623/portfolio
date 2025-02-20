@@ -9,7 +9,7 @@
     </form>
 
     <!-- Table to display portfolio items -->
-    <div v-if="portfolios.length > 0">
+    <div v-if="portfolios.length">
       <h2>Portfolio List</h2>
       <table>
         <thead>

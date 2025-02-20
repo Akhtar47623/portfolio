@@ -1,0 +1,126 @@
+@import url('variables.css');
+
+/* Banner */
+.banner-section {
+    background: var(--background-color);
+    padding: 50px 0;
+}
+
+.banner-img img {
+    border-radius: 250px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid lightsteelblue;
+}
+
+.right-banner {
+    padding: 130px 60px;
+}
+
+.right-banner-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-banner-btn a {
+    text-decoration: none;
+    border-radius: 35px;
+    padding: 15px 29px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.right-banner-btn a:first-child {
+    border: 3px solid var(--heading-color);
+    color: white;
+}
+
+.right-banner-btn a:last-child {
+    background: var(--heading-color);
+    color: white;
+}
+
+/* About Section */
+.about-img img {
+    width: 400px;
+    height: 400px;
+}
+
+.about-right {
+    padding: 75px 0px 0px 108px;
+}
+
+/* Skills */
+.skill-section {
+    padding: 200px 0px 0px 0px;
+}
+
+/* Experience */
+.experience-section {
+    padding: 250px 0px 0px 0px;
+}
+
+.experience-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: var(--secondary-color);
+    margin: 15px;
+    border-radius: 20px;
+    padding: 17px;
+    color: white;
+    line-height: 6px;
+}
+
+/* Projects */
+.project-section {
+    padding: 250px 0px 0px 0px;
+}
+
+.pro {
+    color: black;
+    padding: 38px;
+    border-radius: 17px;
+    border: 2px solid var(--secondary-color);
+}
+
+.pro h4 {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+}
+
+/* Services */
+.service-section {
+    padding: 250px 0px 0px 0px;
+}
+
+.service {
+    color: black;
+    padding: 38px;
+    border-radius: 17px;
+    border: 2px solid var(--secondary-color);
+}
+
+.service h4 {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+}
+
+/* Education */
+.education-section {
+    padding: 250px 0px 0px 0px;
+}
+
+.education-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: var(--secondary-color);
+    margin: 15px;
+    border-radius: 20px;
+    padding: 17px;
+    color: white;
+    line-height: 6px;
+}
